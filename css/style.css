@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgrey;
+    font-family: 'Raleway', sans-serif;
+    color: black; 
+    line-height: 1.8;
+}
+#container{
+    max-width: 800px;
+    padding: 20px;
+    margin: 30px auto;
+}
+.form-wrap{
+    padding: 15px 20px;
+    background-color: #fff;
+    color: #333;
+}
+.form-wrap h1{
+    text-align: center;
+    color: #7A3B10
+}
+.form-wrap hr{
+    display: block;
+    border: #ddd 1px solid;
+
+}
+.form-wrap h2{
+    color: #7A3B10;
+
+}
+
+/*Contact From */
+.container{
+    margin: 30px auto;
+    max-width: 400px;
+    padding: 20px;
+}
+.form-wrap{
+    background: #fff;
+    padding: 15px 20px;
+
+    
+}
+.l-heading p
+ {
+    text-align: center;
+}
+.form-wrap .form-group label{
+    display: block;
+}
+.form-wrap .form-group{
+    margin-top: 15px;
+}
+.form-wrap .form-group input{
+    width: 100%;
+    padding: 10px;
+    border: #ddd 1px solid;
+    border-radius: 5px;
+}
+.form-wrap button{
+    margin-top: 10px;
+    padding: 10px;
+    display: block;
+    background-color: gray;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.form-wrap button:hover{
+    background-color: #7A3B10;
+}
