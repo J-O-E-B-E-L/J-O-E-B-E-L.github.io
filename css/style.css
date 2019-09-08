@@ -39,11 +39,22 @@ body{
     max-width: 400px;
     padding: 20px;
 }
+a{
+    text-decoration: none;
+}
+.container a{
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color: #7A3B10;
+}
+a:hover{
+    color: #333;
+}
 .form-wrap{
     background: #fff;
     padding: 15px 20px;
 
-    
 }
 .l-heading p
  {
